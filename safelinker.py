@@ -25,13 +25,11 @@ urls_onion = {
     "Leaked Password Database": "http://breachdb7r5fusv54wbqgfrmtqcle647ybi7jyi2b2btqyraioox3wid.onion/LeakedPass",
 }
 
-
 def open_url(url):
     webbrowser.open_new(url)
 
-
 root = tk.Tk()
-root.title("URLs Organizator")
+root.title("URL ORGANIZER")
 root.geometry("400x600")
 root.configure(bg="#f7f3f9")
 
@@ -57,7 +55,7 @@ frame_onion = tk.LabelFrame(root, text="Onion URLs", bg="#f7f3f9", fg=btn_color,
 frame_onion.pack(fill="both", expand=True, padx=10, pady=5)
 create_buttons(frame_onion, urls_onion)
 
-footer = tk.Label(root, text="Desenvolvido com ❤ em Python", bg="#f7f3f9", fg="#7b1fa2", font=("Helvetica", 10))
+footer = tk.Label(root, text="Developed by D", bg="#f7f3f9", fg="#7b1fa2", font=("Helvetica", 10))
 footer.pack(side="bottom", pady=10)
 
 root.mainloop()
