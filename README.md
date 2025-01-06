@@ -1,28 +1,26 @@
 # SafeLinker 🔗  
-*A powerful tool to open URLs related to cybersecurity resources in one click!*  
-*Uma ferramenta poderosa para abrir URLs relacionadas a recursos de segurança cibernética com um clique!*  
+🇺🇸 *A powerful tool to open URLs related to cybersecurity resources in one click!*
 
-## 📜 Sobre | About  
-SafeLinker é uma ferramenta desenvolvida em Python que utiliza a biblioteca `tkinter` para fornecer uma interface gráfica simples e eficiente para acessar rapidamente sites relacionados à segurança cibernética.  
-SafeLinker is a Python-based tool that uses the `tkinter` library to provide a simple and efficient graphical interface to quickly access cybersecurity-related websites.  
+## 📜 About 🇺
+SafeLinker is a Python-based tool using the `tkinter` library that provides a simple and efficient graphical interface to quickly access cybersecurity-related websites. 
 
-## 🚀 Funcionalidades | Features  
-- Lista de URLs prontas para sites populares de segurança cibernética.  
-- Interface gráfica intuitiva e fácil de usar.  
-- Abre links diretamente no navegador padrão.  
-- Inclui sites de superfície e da deep web (onion).  
+## 🚀 Features
+- List of ready-to-use URLs for popular cybersecurity websites.  
+- Intuitive and easy-to-use graphical interface.  
+- Opens links directly in the default web browser.  
+- Includes surface web sites, databases, and deep web (onion) sites.  
 
----
+### Requirements 
+- Python 3.x installed.  
+- `tkinter` library included (comes by default with Python installations).  
 
-## 📋 Como usar | How to Use  
+### Installation + Use
 
-### Requisitos | Requirements  
-- Python 3.x instalado.  
-- Biblioteca `tkinter` incluída (vem por padrão em instalações do Python).  
-
-### Instalação | Installation  
-
-1. Clone o repositório:  
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/seu-usuario/cyberlinker.git
-   cd cyberlinker
+   git clone https://github.com/privgabriel/SafeLinker.git
+   cd SafeLinker
+
+ ```bash
+ Execute python code
+ python safelinker.py
