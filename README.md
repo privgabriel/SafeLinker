@@ -1,5 +1,5 @@
 # SafeLinker 🔗  
-🇺🇸 *A powerful tool to open URLs related to cybersecurity resources in one click!*
+*A powerful tool to open URLs related to cybersecurity resources in one click!*
 
 ## 📜 About 🇺
 SafeLinker is a Python-based tool using the `tkinter` library that provides a simple and efficient graphical interface to quickly access cybersecurity-related websites. 
