@@ -10,6 +10,7 @@ URLS_SURFACE = {
     "Dorks-Tutorial": "https://www.recordedfuture.com/threat-intelligence-101/threat-analysis-techniques/google-dorks",
     "Shodan": "https://www.shodan.io/",
     "Censys": "https://censys.io/",
+    "Wayback Machine": "https://archive.org/web/",
 }
 
 URLS_DB_SURFACE = {
