@@ -11,6 +11,7 @@ URLS_SURFACE = {
     "Shodan": "https://www.shodan.io/",
     "Censys": "https://censys.io/",
     "Wayback Machine": "https://archive.org/web/",
+    "crt.sh": "https://crt.sh/",
 }
 
 URLS_DB_SURFACE = {
