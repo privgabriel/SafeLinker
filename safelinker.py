@@ -27,6 +27,13 @@ URLS_ONION = {
     "Leaked Password Database": "http://breachdb7r5fusv54wbqgfrmtqcle647ybi7jyi2b2btqyraioox3wid.onion/LeakedPass",
 }
 
+URLS_PENTEST = {
+    "CrackStation": "https://crackstation.net/",
+    "Base64 Decode": "https://www.base64decode.org/",
+    "MD5 Decrypt": "https://md5decrypt.net/en/",	
+    "Hashes.org": "https://hashes.org/",
+}
+
 def open_url(url: str):
     try:
         webbrowser.open_new(url)
@@ -55,6 +62,10 @@ def setup_ui():
     frame_onion = tk.LabelFrame(root, text="Onion URLs", bg="#f7f3f9", fg="#7b1fa2", font=("Helvetica", 12, "bold"))
     frame_onion.pack(fill="both", expand=True, padx=10, pady=5)
     create_buttons(frame_onion, URLS_ONION)
+
+    frame_onion = tk.LabelFrame(root, text="Pentest URLs", bg="#f7f3f9", fg="#7b1fa2", font=("Helvetica", 12, "bold"))
+    frame_onion.pack(fill="both", expand=True, padx=10, pady=5)
+    create_buttons(frame_onion, URLS_PENTEST)
 
     root.mainloop()
 
