@@ -34,6 +34,16 @@ URLS_PENTEST = {
     "Hashes.org": "https://hashes.org/",
 }
 
+URLS_FERRAMENTAS_PENTEST = {
+    "gobuster": "https://github.com/OJ/gobuster",
+    "dnsrecon": "https://github.com/darkoperator/dnsrecon",
+    "nmap": "https://nmap.org/",
+    "sublist3r": "https://github.com/aboul3la/Sublist3r",
+    "ffuf": "https://github.com/ffuf/ffuf",
+}
+
+
+
 def open_url(url: str):
     try:
         webbrowser.open_new(url)
@@ -66,6 +76,11 @@ def setup_ui():
     frame_onion = tk.LabelFrame(root, text="Pentest URLs", bg="#f7f3f9", fg="#7b1fa2", font=("Helvetica", 12, "bold"))
     frame_onion.pack(fill="both", expand=True, padx=10, pady=5)
     create_buttons(frame_onion, URLS_PENTEST)
+
+    frame_onion = tk.LabelFrame(root, text="Ferramentas Pentest", bg="#f7f3f9", fg="#7b1fa2", font=("Helvetica", 12, "bold"))
+    frame_onion.pack(fill="both", expand=True, padx=10, pady=5)
+    create_buttons(frame_onion, URLS_FERRAMENTAS_PENTEST)
+
 
     root.mainloop()
 
